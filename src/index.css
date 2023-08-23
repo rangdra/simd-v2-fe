@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-image: linear-gradient(to right bottom, #22d3ee, #6366f1); */
+  /* background-color: #22d3ee;
+   */
+  background-color: #2046ad;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.custom-dropdown .ant-select-item-option-content {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
