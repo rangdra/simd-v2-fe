@@ -7,7 +7,7 @@ import Cookies from 'js-cookie';
 //     : 'https://api-ds.onrender.com/api';
 
 let instance = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://api-ds.onrender.com/api',
 });
 // `${process.env.NEXT_PUBLIC_API_URL}/api`
 // 'http://localhost:5000/api'
